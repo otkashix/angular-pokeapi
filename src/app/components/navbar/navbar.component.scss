@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    width: auto;
+    height: 75px;
+    background-color: black;
+    #navbar-logo{
+        position: relative;
+        width: auto;
+        img{
+            width: 48px;
+            height: 48px;
+        }
+    }
+    #navbar-nav{
+        position: relative;
+        ul{
+            position: relative;
+            display: inline-flex;
+            width: auto;
+            list-style: none;
+            li{
+                margin-left: 20px;
+            }
+        }
+    }
+}
